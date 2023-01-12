@@ -15,7 +15,7 @@ class HeroAnimation extends StatelessWidget {
       ),
       body: Center(
         child: PhotoHero(
-          photo: photo, //will input my image here
+          photo: image.png, //will input my image here
           onTap:() {
             Navigator.of(context).push(MaterialPageRoute<void>(
               builder: (BuildContext (context) {
@@ -34,8 +34,8 @@ class HeroAnimation extends StatelessWidget {
                       }, 
                       width: 100.0)
                   ),
-                )
-              })))
+                );
+              })));
           }, 
           width: 300),
       ),
